@@ -7,6 +7,7 @@
   <title>Flowers Online Shop</title>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css\bootstrap-grid.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
   <link rel="stylesheet" href="css\style.css">
 </head>
 <body>
@@ -26,7 +27,7 @@
       <div class="col-lg-3 col-md-5 header-contacts">
         <a href="tel:+788006548745 " class="header-phone">8 (800) 654-87-45</a>
         <div class="header-info">Звонок по Росии бесплатный</div>
-        <a href="#" class="callback">Заказать звонок</a>
+        <a data-fancybox data-src="#modal" href="javascript":; class="callback">Заказать звонок</a>
       </div>
     </div>
     <!-- /.row -->
@@ -66,7 +67,7 @@
     </div>
     <!-- /.swiper-container -->
     <span class="hero-cta">Закажите эксклюзивный букет со скидкой 10%</span>
-    <a href="#" class="button">Заказать букет</a>
+    <a data-fancybox data-src="#modal" href="javascript":; class="button">Заказать букет</a>
   </div>
   <!-- /.container -->
 </section>
@@ -86,7 +87,7 @@
             <p class="review">Я очень довольна таким отношением к делу. Обслужили просто превосходно, я заказывала по телефону — так подробно мне всё 
             объяснили, помогли выбрать замечательный букет, и привезли всё вовремя, букет был очень красивый, он очень понравился,
             спасибо вам огромное.</p>
-            <a href="#" class="review-link">Посмотреть фотографии букета</a>
+            <a href="javascript:;" id="review-1" class="review-link">Посмотреть фотографии букета</a>
           </div>
         </div>
           <div class="swiper-slide review-slide d-flex flex-column flex-md-row align-items-center">
@@ -464,7 +465,16 @@
       <!-- /.container -->
     </div>
 </footer>
+<div class="modal" id="modal">
+  <h2 class="modal-title">Закажите обратный звонок</h2>
+  <form action="#">
+    <input class="modal-input" type="tel" placeholder="+7 (___) __-__-___-">
+    <button class="button modal-button">Перезвоните мне</button>
+  </form>
+</div>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

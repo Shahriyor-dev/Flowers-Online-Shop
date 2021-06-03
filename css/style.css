@@ -423,6 +423,22 @@ body {
     text-align: left;
   }
 }
+.modal {
+  display: none;
+}
+.modal-title {
+  color: #292929;
+}
+.modal-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+}
+.modal-button {
+  width: 100%;
+}
 @media (max-width: 576px) {
   .footer-info {
     text-align: left;
