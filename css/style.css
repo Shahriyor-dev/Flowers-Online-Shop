@@ -69,10 +69,12 @@ body {
 }
 .hero-title {
   font-size: 34px;
+  margin: auto;
   margin-bottom: 34px;
   text-transform: uppercase;
   letter-spacing: 0.34px;
   font-family: Gotham Pro Medium;
+  max-width: 650px;
 }
 .hero-descripiton {
   font-size: 18px;
@@ -80,6 +82,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.18px;
   line-height: 1.4;
+  max-width: 552px;
+  margin: auto;
 }
 .flowers-slider {
   width: 100%;
@@ -341,7 +345,7 @@ body {
   padding: 50px 0;
 }
 .footer-logo {
-  margin-right: 42px;
+  margin-right: 60px;
 }
 .footer-description {
   color: #292929;
@@ -361,4 +365,87 @@ body {
   background-color: #000;
   margin-left: auto;
   margin-top: 2px;
+}
+@media (max-width: 990px) {
+  .colors {
+    max-width: 200px;
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
+  .header-contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .hero {
+    padding-top: 50px;
+  }
+  .hero-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  .hero-descripiton {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 16px;
+  }
+  .advantages {
+    padding-bottom: 50px;
+  }
+  .goods {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .offer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .colors {
+    max-width: 200px;
+    margin: auto;
+  }
+  .card-label {
+    margin: 20px auto;
+  }
+  .footer-info {
+    text-align: left;
+  }
+}
+@media (max-width: 576px) {
+  .footer-info {
+    text-align: left;
+  }
+  .offer,
+  .offer-title,
+  .footer-info {
+    text-align: left;
+  }
+  .offer-title,
+  .offer-link {
+    font-size: 26px;
+  }
+  .offer-phone {
+    font-size: 32px;
+  }
+}
+@media (max-width: 320px) {
+  .offer-title,
+  .offer-link {
+    font-size: 24px;
+  }
+  .offer-phone {
+    font-size: 28px;
+  }
 }

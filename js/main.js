@@ -8,6 +8,21 @@ const flowersSlider = new Swiper('.flowers-slider', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
+ // Адаптивные брейкпоинты
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    480: {
+      slidesPerView: 3,
+    },
+    640: {
+      slidesPerView: 3,
+    }
+    310:{
+      slidesPerView:1;
+    }
+  }
 
 });
 
