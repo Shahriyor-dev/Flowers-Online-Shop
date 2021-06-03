@@ -303,3 +303,62 @@ body {
   text-decoration: none;
   color: #fff;
 }
+.footer-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 33px;
+}
+.footer-menu-link {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+}
+.footer-menu-item {
+  margin-right: 30px;
+}
+.social {
+  font-size: 16px;
+}
+.footer-label {
+  margin-bottom: 12px;
+  display: block;
+  font-size: 14px;
+}
+.footer-info {
+  text-align: right;
+}
+.footer-phone {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+.footer-white {
+  background-color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+.footer-logo {
+  margin-right: 42px;
+}
+.footer-description {
+  color: #292929;
+  font-size: 12px;
+  text-align: left;
+  line-height: 1.3;
+}
+.footer-copyright {
+  color: #101010;
+  margin-left: auto;
+}
+.bottom-line::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 90px;
+  background-color: #000;
+  margin-left: auto;
+  margin-top: 2px;
+}
