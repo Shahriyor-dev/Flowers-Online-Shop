@@ -106,3 +106,58 @@ body {
   margin-top: 36px;
   display: inline-block;
 }
+
+.reviews {
+  padding: 100px 0;
+}
+.review-image {
+  width: 220px;
+  height: 220px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  font-size: 20px;
+  font-family: Gotham Pro Light;
+  border: none;
+  position: relative;
+  margin-right: 50px;
+}
+.review-image:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+}
+.review-image > * {
+  position: relative;
+}
+
+.review-image-1 {
+  background: #000 url(../img/bucket.png);
+}
+.review-image-2 {
+  background: #000 url(../img/bucket-2.png);
+}
+.review-name {
+  margin-bottom: 7px;
+}
+.review-slide {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+.review-text {
+  font-size: 18px;
+  letter-spacing: 0.18px;
+  line-height: 1.4;
+  max-width: 480px;
+}
+.review-link {
+  color: #f24841;
+}
+.section-title {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 100px;
+}
